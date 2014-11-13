@@ -1,0 +1,92 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+    background-image: url('http://goo.gl/04j7Nn');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+#welcomebox {
+	padding-top: 150px;
+}
+
+#background {
+	background-color: rgba(0, 0, 0, 0.65);
+	border-radius: 15px;
+	box-shadow: 1px 2px 2px #000;
+}
+
+#navbar {
+	margin-bottom: 0px;
+}
+
+.input-group {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#input-div {
+	margin-top: 10px;
+}
+
+#TextBox {
+	margin-top: 20px;
+}
+
+h1{
+	padding-left: 15px;
+	margin-bottom: 50px;
+}
+
+h1, h2, p {
+	color: #f2f2f2 !important;
+}
+
+h3 {
+	color: #428BCA;
+	font-family: "trebuchet ms", sans-serif;  
+}
+
+.btn {
+	margin-top: 20px;
+}
+
+#btn_register {
+	width: 100%;
+}
+
+#btn_forgot {
+	float: right;
+}
+
+ /* Slider Section */
+
+.carousel-caption {
+	position: relative;
+	left: 0;
+	right: 0;
+}
+
+.item {
+	text-align: center;
+	height: 250px !important;
+}
+
+.form-group {
+	margin: 0px !important;
+}
+
+.slide > a > span {
+	padding-top: 50%;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+	z-index: 2500;
+}

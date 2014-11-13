@@ -1,0 +1,137 @@
+body {
+	background-color: #222;
+}
+
+.navbar-header {
+    float: left;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}
+
+.navbar-fixed-top {
+    top: 0px;
+    border-width: 0px 0px 1px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.side-nav {
+	position: fixed;
+	top: 51px;
+	width: 225px;
+	border: medium none;
+	border-radius: 0px;
+	overflow-y: auto;
+	background-color: #222;
+}
+
+.side-nav li a:hover, .side-nav li a:focus {
+    outline: medium none;
+    background-color: #000 !important;
+}
+
+.navbar-nav > li > a:hover {
+    color: #FFF;
+    background-color: transparent;
+}
+
+.top-nav {
+    padding: 0px 15px;
+}
+
+.top-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #999
+    ;
+}
+
+.top-nav > li > a:hover, 
+.top-nav > li > a:focus, 
+.top-nav > .open > a, 
+.top-nav > .open > a:hover, 
+.top-nav > .open > a:focus {
+    color: #FFF;
+    background-color: #000;
+}
+
+.navbar-right {
+    float: right !important;
+}
+
+.nav {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: outside none none;
+}
+
+ul, ol {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #777;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+a {
+    color: #428BCA;
+    text-decoration: none;
+    background: none repeat scroll 0px 0px transparent;
+}
+
+.navbar-nav > li {
+    float: left;
+}
+
+.top-nav li {
+	position: relative;
+    display: inline-block;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;
+	margin-top: 0px;
+}
+
+.side-nav > li {
+    position: relative;
+    display: inline-block;
+    width: 225px;
+}
+
+.dropdown-menu {
+	margin: 0px;
+	background-color: #222;
+	border-radius: 0px;
+}
+
+.dropdown-menu li {
+	width: 100%;
+}
+
+.dropdown-menu > li > a {
+	color: #999;
+}

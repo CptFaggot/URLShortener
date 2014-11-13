@@ -1,0 +1,110 @@
+
+.list-group > li > span {
+	width: 45%;
+	text-align: center;
+	display: inline-block;
+	line-height: 3.32;
+	box-shadow: 0px 1px 1px #000;
+}
+
+.list-group > li > .small {
+	width: 25%;
+}
+
+.list-group li {
+	list-style: none;
+	padding-bottom: 5px;
+}
+
+.row {
+	margin: 0px;
+}
+
+#InfoText {
+	font-size: 18px;
+}
+
+#noHitsError {
+	margin-top: 25%;
+	text-align: center;
+	font-size: 35px;	
+}
+
+#Firefox {
+	background-color: #E66000;
+}
+#Chrome {
+	background-color: #53AD47;
+}
+#IE {
+	background-color: #00CCFF;
+}
+#Opera {
+	background-color: #CC0F16;
+}
+#Safari {
+	background-color: #666666;
+}
+#Netscape {
+	background-color: #0A7D87;
+}
+
+#Windows {
+	background-color: #00ADEF;
+}
+#Mac {
+	background-color: #666666;
+}
+#Linux {
+	background-color: #DD4814;
+}
+
+
+#URL1{
+	background-color: #E66000;
+}
+#URL2 {
+	background-color: #53AD47;
+}
+#URL3 {
+	background-color: #00CCFF;
+}
+#URL4 {
+	background-color: #CC0F16;
+}
+#URL5 {
+	background-color: #666666;
+}
+
+#pieChart > svg > text {
+	color: red !important;
+}
+
+.list-group > li > span > a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.chevron > a {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;		
+}
+
+.rotated {
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+
+}
+
+.fa-chevron-circle-right,
+.fa-chevron-circle-left {
+	font-size: 2em;
+	vertical-align: middle;
+	color: #FFF;
+}

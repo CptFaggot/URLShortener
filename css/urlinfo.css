@@ -1,0 +1,25 @@
+#list-group-container,
+#list-group-container-values {
+	padding: 0px;
+}
+
+.list-group-item {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+	border-radius: 0px;
+}
+
+#list-group {
+	text-indent: 45px;
+}
+
+
+
+.panel-body {
+	padding: 0px;
+}
